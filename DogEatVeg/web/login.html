@@ -119,14 +119,15 @@
 
             <div class="underline"></div>
             <p class="title">會員登入</p>
-            <div class="textin">
-                <input type="text" class="form account" placeholder="帳號" id="login_account">
+            <form action="./js/api.php">
+                <div class="textin">
+                    <input type="text" class="form account" placeholder="帳號" id="login_account" name="userId">
 
-                <input type="password" class="form password" placeholder="密碼" id="login_password">
-            </div>
-
-            <div class="loginbtn">開始購物吧！</div>
-
+                    <input type="password" class="form password" placeholder="密碼" id="login_password" name="userPsw">
+                </div>
+            
+                <input type="submit" class="loginbtn" value="開始購物吧！"></div>
+            </form>
             <p class="forget">忘記密碼?</p>
         </div>
 

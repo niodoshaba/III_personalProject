@@ -147,6 +147,8 @@ transition: all 0.1s linear;
 }
 
 .loginbtn{
+    border: none;
+    display: block;
     text-align: center;
     color: white;
     background-color: #55A34D;
